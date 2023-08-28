@@ -1,0 +1,23 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100vw;
+}
+.home p{
+    color: rgb(0, 77, 179);
+    font-size: 20px;
+    font-weight: 600;
+}
+.home h1{
+    color: red;
+    background:  rgba(78, 0, 180, 0.699);
+    font-size: 40px;
+    border-bottom: 1px solid red;
+}
+.home h1::selection{
+    color: rgb(0, 0, 0);
+    background:  rgba(203, 202, 204, 0.699);
+}

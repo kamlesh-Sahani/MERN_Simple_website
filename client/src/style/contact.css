@@ -1,0 +1,90 @@
+
+.contact{
+     height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+gap: 60px;
+
+}
+
+.contact .upper{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    gap: 15px;
+
+
+}
+.contact .upper .info{
+        height: 100px;
+        width: 400px;
+        background-color: #fff;
+        box-shadow: 1px 1px 10px rgb(197, 197, 197);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        gap: 5px;
+}
+.contact .upper .info h2{
+    color: rgb(70, 3, 133);
+}
+
+.contact .lower{
+    background-color: #fff;
+    height: 530px;
+    width: 800px;
+    box-shadow: 1px 1px 10px rgb(197, 197, 197);
+    border-radius:5px;
+    padding:20px ;
+}
+
+.contact .lower h1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.contact .lower form {
+    margin-top: 30px;
+    position: relative;
+}
+.contact .lower form input{
+    height: 50px;
+    width: 220px;
+    outline:none;
+    margin: 0 15px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(175, 175, 175);
+    color: rgb(49, 3, 109);
+    font-size: 16px;
+    text-transform: lowercase;
+}
+.contact .lower form textarea{
+    height: 220px;
+    width: 600px;
+    border-radius: 5px;
+    border: 1px solid rgb(167, 167, 167);
+    margin: 30px 100px;
+    outline: none;
+    padding: 20px;
+    resize: none ;
+}
+.contact .lower form button{
+    height: 50px;
+    width: 180px;
+    background-color: rgb(87, 10, 160);
+    color: #fff;
+    transition: all 0.3s linear;
+    border-radius: 7px;
+    margin-left: 30%;
+}
+.contact .lower form button:hover{
+    background-color: #fff;
+    color: rgb(87, 10, 160);
+    border: 2px solid  rgb(87, 10, 160);
+    transition: all 0.3s linear ;
+}

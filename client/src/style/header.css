@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+.navbar {
+  width: 100vw;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f7f7;
+}
+
+.navbar .logo h1 {
+  color: blueviolet;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-left: 20px;
+}
+.navbar .link {
+  display: flex;
+}
+.navbar .link a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.712);
+  margin: 0px 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.navbar .link a:hover {
+  color: black;
+  transition: all 0.3s;
+}
